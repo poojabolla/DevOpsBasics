@@ -1,0 +1,21 @@
+sudo apt-get update
+
+sudo apt install docker.io
+-----------------------------------------------------------------
+#committing changes of a container
+
+docker run -it -d ubuntu
+
+docker exec -it f88282209de8 bash
+
+apt-get update
+
+apt install apache2	
+
+apt install docker.io -y
+
+exit
+
+docker commit f88282209de8 my-ubuntu
+
+
